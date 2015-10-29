@@ -87,10 +87,12 @@ a, a:link, a:visited, a:hover, a:active {
   text-align:  center;
   font-size:   $desc_fsize;
   text-shadow: $desc_tshadow;
+  @include animation-duration(.5s);
 }
 
 #logo {
   padding:    $logo_padding;
+  @include animation-duration(.5s);
 }
 
 #logo object {
