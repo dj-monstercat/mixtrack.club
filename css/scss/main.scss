@@ -11,7 +11,9 @@ $logo_height:     20vh;
 
 $push_top:        20%;
 
-$container_width: 40%;
+$container_width: 30%;
+
+$desc_fsize:      28px;
 
 @import 'animate';
 
@@ -81,6 +83,8 @@ a, a:link, a:visited, a:hover, a:active {
 
 #site-desc {
   line-height: 0;
+  text-align:  center;
+  font-size:   $desc_fsize;
 }
 
 #logo {
