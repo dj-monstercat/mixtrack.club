@@ -14,6 +14,7 @@ $push_top:        15%;
 $container_width: 30%;
 
 $desc_fsize:      22px;
+$desc_tshadow:    .5px .5px 0 #353535;
 
 @import 'animate';
 
@@ -85,6 +86,7 @@ a, a:link, a:visited, a:hover, a:active {
   line-height: 0;
   text-align:  center;
   font-size:   $desc_fsize;
+  text-shadow: $desc_tshadow;
 }
 
 #logo {
