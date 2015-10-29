@@ -15,6 +15,7 @@ $container_width: 30%;
 
 $desc_fsize:      22px;
 $desc_tshadow:    .5px .5px 0 #353535;
+$ani_duration:    .5s;
 
 @import 'animate';
 
@@ -39,6 +40,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing:    border-box;
   box-sizing:         border-box;
+  overflow:           hidden;
 }
 
 $i: 80;
@@ -87,12 +89,12 @@ a, a:link, a:visited, a:hover, a:active {
   text-align:  center;
   font-size:   $desc_fsize;
   text-shadow: $desc_tshadow;
-  @include animation-duration(.5s);
+  @include animation-duration($ani_duration);
 }
 
 #logo {
   padding:    $logo_padding;
-  @include animation-duration(.5s);
+  @include animation-duration($ani_duration);
 }
 
 #logo object {
