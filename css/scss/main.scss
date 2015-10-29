@@ -79,6 +79,10 @@ a, a:link, a:visited, a:hover, a:active {
   color:           inherit;
 }
 
+#site-desc {
+  line-height: 0;
+}
+
 #logo {
   padding:    $logo_padding;
 }
