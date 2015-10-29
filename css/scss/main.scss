@@ -7,9 +7,11 @@ $default_fweight: 300;
 $bg_col:          #c61f57;
 
 $logo_padding:    10px;
-$logo_height:     10vh;
+$logo_height:     20vh;
 
-$push_top:        15%;
+$push_top:        20%;
+
+$container_width: 40%;
 
 @import 'animate';
 
@@ -65,7 +67,7 @@ $i: 20;
 }
 
 .container {
-  width: 20%;
+  width: $container_width;
 }
 
 .inline-block {
