@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-$default_fcol:    #222222;
+$default_fcol:    #ffffff;
 $default_fstack:  'Open Sans', sans-serif;
 $default_fweight: 300;
 
@@ -44,7 +44,7 @@ $i: 80;
   $i: $i - 10;
 }
 
-$i: 20;
+$i: 50;
 @while $i > 0 {
   .pad-left-#{$i} { padding-left: #{$i}px; }
   $i: $i - 5;
