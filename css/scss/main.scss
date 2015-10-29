@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+$default_fcol:    #222222;
+$default_fstack:  font-family: 'Open Sans', sans-serif;
+$default_fweight: 300;
+
+$bg_col:          #c61f57;
+
+$logo_bg:         url('../images/logo.svg') no-repeat;
+$logo_padding:    10px;
+
+@import 'animate';
+
+/*
+    Author:      Elliott Judd
+    Website:     https://ejudd.uk/
+    Email:       e@ejudd.uk
+    License:     MIT
+    License URL: http://opensource.org/licenses/MIT
+*/
+
+@import 'mixins';
+@import 'fonts';
+@import 'clearfix';
+
+body {
+  text-rendering:     optimizeLegibility;
+  color:              $default_fcol;
+  font-family:        $default_fstack;
+  font-weight:        $default_fweight;
+  background:         $bg_col;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+}
+
+$i: 80;
+@while $i > 0 {
+  .pad-#{$i} { padding: #{$i}px; }
+  $i: $i - 10;
+}
+
+$i: 20;
+@while $i > 0 {
+  .pad-left-#{$i} { padding-left: #{$i}px; }
+  $i: $i - 5;
+}
+
+.rs-window {
+  height:                  100vh;
+  -webkit-transform-style: preserve-3d;
+  transform-style:         preserve-3d;
+}
+
+.center {
+  display: block;
+  margin:  0 auto;
+}
+
+.push-top {
+  top: 45%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color:           inherit;
+}
+
+#logo {
+  background: $logo_bg;
+  padding:    $logo_padding;
+}
