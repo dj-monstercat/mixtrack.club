@@ -8,6 +8,7 @@ $bg_col:          #c61f57;
 
 $logo_bg:         url('../images/logo.svg') no-repeat;
 $logo_padding:    10px;
+$logo_height:     10vh;
 
 @import 'animate';
 
@@ -53,12 +54,17 @@ $i: 20;
 }
 
 .center {
-  display: block;
-  margin:  0 auto;
+  display:      block;
+  margin-left:  auto;
+  margin-right: auto;
 }
 
 .push-top {
-  top: 45%;
+  margin-top: 25%;
+}
+
+.container {
+  width: 20%;
 }
 
 .inline-block {
@@ -71,6 +77,9 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 #logo {
-  background: $logo_bg;
   padding:    $logo_padding;
+}
+
+#logo object {
+  height: $logo_height;
 }
