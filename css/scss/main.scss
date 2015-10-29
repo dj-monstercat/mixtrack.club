@@ -9,6 +9,8 @@ $bg_col:          #c61f57;
 $logo_padding:    10px;
 $logo_height:     10vh;
 
+$push_top:        15%;
+
 @import 'animate';
 
 /*
@@ -59,7 +61,7 @@ $i: 20;
 }
 
 .push-top {
-  margin-top: 25%;
+  margin-top: $push_top;
 }
 
 .container {
