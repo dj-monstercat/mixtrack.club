@@ -3,4 +3,4 @@ dependencies:
     - sudo pip install html5validator
 test:
   override:
-    - html5validator
+    - html5validator --root ./
