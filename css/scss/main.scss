@@ -79,9 +79,14 @@ $i: 50;
   display: inline-block;
 }
 
-a, a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-  color:           inherit;
+.right {
+  float: right;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 15px;
+  font-size: 14px;
 }
 
 #site-desc {
@@ -95,8 +100,19 @@ a, a:link, a:visited, a:hover, a:active {
 #logo {
   padding:    $logo_padding;
   @include animation-duration($ani_duration);
+
+  object {
+    height: $logo_height;
+  }
 }
 
-#logo object {
-  height: $logo_height;
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color:           inherit;
+}
+
+nav {
+  a:hover {
+    text-decoration: underline;
+  }
 }
