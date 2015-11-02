@@ -1,28 +1,29 @@
 @charset "UTF-8";
 
-$default_fcol:    #ffffff;
-$default_fstack:  'Open Sans', sans-serif;
-$default_fweight: 300;
+$default_fcol:   #ffffff;
+$default_fstack: 'Open Sans', sans-serif;
+$default_fweight 300;
 
-$bg_col:          #c61f57;
+$bg_col:         #c61f57;
 
-$logo_padding:    10px;
-$logo_height:     18vh;
+$logo_padding:   10px;
+$logo_height:    18vh;
 
-$push_top:        15%;
+$push_top:       15%;
 
-$container_width: 30%;
+$cont_width:     30%;
+$cont_width_mob: 60%;
 
-$desc_fsize:      22px;
-$desc_fsize_mob:  14px;
-$desc_tshadow:    .5px .5px 0 #353535;
-$ani_duration:    .5s;
+$desc_fsize:     22px;
+$desc_fsize_mob: 14px;
+$desc_tshadow:   .5px .5px 0 #353535;
+$ani_duration:   .5s;
 
-$footer_mtop:     10%;
-$footer_mright:   2%;
+$footer_mtop:    10%;
+$footer_mright:  2%;
 
-$nav_fsize:       14px;
-$nav_fsize_mob:   8px;
+$nav_fsize:      14px;
+$nav_fsize_mob:  8px;
 
 @import 'animate';
 
