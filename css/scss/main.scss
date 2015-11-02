@@ -80,7 +80,7 @@ $i: 50;
 }
 
 .container {
-  width: $container_width;
+  width: $cont_width;
 }
 
 .inline-block {
@@ -137,5 +137,9 @@ nav {
 
   nav {
     font-size: $nav_fsize_mob;
+  }
+
+  .container {
+    width: $cont_width_mob;
   }
 }
