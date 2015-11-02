@@ -14,6 +14,7 @@ $push_top:        15%;
 $container_width: 30%;
 
 $desc_fsize:      22px;
+$desc_fsize_mob:  14px;
 $desc_tshadow:    .5px .5px 0 #353535;
 $ani_duration:    .5s;
 
@@ -21,6 +22,7 @@ $footer_mtop:     10%;
 $footer_mright:   2%;
 
 $nav_fsize:       14px;
+$nav_fsize_mob:   8px;
 
 @import 'animate';
 
@@ -120,5 +122,19 @@ nav {
 
   a:hover {
     text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  #logo {
+    display: none;
+  }
+
+  #site-desc {
+    font-size: $desc_fsize_mob;
+  }
+
+  nav {
+    font-size: $nav_fsize_mob;
   }
 }
