@@ -83,12 +83,6 @@ $i: 50;
   float: right;
 }
 
-.bottom {
-  position: absolute;
-  bottom: 15px;
-  font-size: 14px;
-}
-
 #site-desc {
   line-height: 0;
   text-align:  center;
@@ -111,7 +105,13 @@ a, a:link, a:visited, a:hover, a:active {
   color:           inherit;
 }
 
+footer {
+  margin-top: 50px;
+}
+
 nav {
+  font-size: 14px;
+
   a:hover {
     text-decoration: underline;
   }
